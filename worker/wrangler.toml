@@ -1,0 +1,11 @@
+name = "shift-scheduler"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[vars]
+JWT_SECRET = "dev-only-secret-change-in-production"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "shift-scheduler-db"
+database_id = "placeholder-replace-with-actual-id"
