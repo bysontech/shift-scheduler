@@ -1,0 +1,11 @@
+{
+  "name": "shift-scheduler",
+  "private": true,
+  "workspaces": ["worker", "client"],
+  "scripts": {
+    "build": "npm run build --workspace=worker && npm run build --workspace=client",
+    "typecheck": "npm run typecheck --workspace=worker && npm run typecheck --workspace=client",
+    "dev:worker": "npm run dev --workspace=worker",
+    "dev:client": "npm run dev --workspace=client"
+  }
+}

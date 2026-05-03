@@ -1,0 +1,16 @@
+
+# Dependencies
+node_modules/
+client/node_modules/
+worker/node_modules/
+
+# Build output
+client/dist/
+worker/dist/
+
+# Wrangler local dev
+worker/.wrangler/
+
+# Environment
+.env
+.env.local
